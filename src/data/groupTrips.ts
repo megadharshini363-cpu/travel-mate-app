@@ -1,0 +1,85 @@
+import { GroupTrip } from '../types';
+
+export const initialGroupTrips: GroupTrip[] = [
+  {
+    id: 'grp-1',
+    title: 'Nilgiris Tea Trail & Cloud Peak Trek',
+    destination: 'Ooty & Kolli Hills',
+    destinationId: 'ooty',
+    dates: 'Nov 14 - Nov 17, 2026',
+    totalSpots: 8,
+    joinedCount: 5,
+    hostName: 'Vigneshwaran K.',
+    hostAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80',
+    hostVerified: true,
+    estimatedCostPerPerson: 4800,
+    interests: ['Trekking', 'Tea Estates', 'Photography', 'Campfire'],
+    description: 'A 4-day shared journey climbing 70 hairpin bends, exploring virgin tea gardens, and staying at an eco-homestay with bonfire nights. Verified travelers only.',
+    joinedMembers: [
+      {
+        name: 'Deepa Rajan',
+        avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+      {
+        name: 'Rahul Menon',
+        avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+      {
+        name: 'Priyanka Sharma',
+        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'grp-2',
+    title: 'Great Chola Heritage & Culinary Expedition',
+    destination: 'Thanjavur, Madurai & Chettinad',
+    destinationId: 'madurai',
+    dates: 'Nov 21 - Nov 24, 2026',
+    totalSpots: 10,
+    joinedCount: 7,
+    hostName: 'Kavitha Natarajan',
+    hostAvatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80',
+    hostVerified: true,
+    estimatedCostPerPerson: 5500,
+    interests: ['Architecture', 'Temple History', 'Culinary Walks', 'Handicrafts'],
+    description: 'Immersive exploration of 1,000-year-old living Chola temples, Athangudi handmade tile studios, and authentic Madurai evening street food circuits.',
+    joinedMembers: [
+      {
+        name: 'Arjun Swaminathan',
+        avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+      {
+        name: 'Sneha Patel',
+        avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+    ],
+  },
+  {
+    id: 'grp-3',
+    title: 'Land’s End Coastal & Pamban Sea Bridge Roadtrip',
+    destination: 'Rameshwaram & Dhanushkodi',
+    destinationId: 'rameshwaram',
+    dates: 'Dec 05 - Dec 07, 2026',
+    totalSpots: 6,
+    joinedCount: 4,
+    hostName: 'Suresh Kumar',
+    hostAvatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&auto=format&fit=crop&q=80',
+    hostVerified: true,
+    estimatedCostPerPerson: 3900,
+    interests: ['Coastal Drive', 'Ghost Town', 'Sunrise Watching', 'Seafood'],
+    description: 'Weekend coastal caravan across Pamban Cantilever Bridge to the ghost town ruins of Dhanushkodi and sacred Arichal Munai confluence.',
+    joinedMembers: [
+      {
+        name: 'Manoj Pillai',
+        avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&auto=format&fit=crop&q=80',
+        verified: true,
+      },
+    ],
+  },
+];

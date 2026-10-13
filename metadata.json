@@ -1,0 +1,6 @@
+{
+  "name": "TravelMate AI - Tamil Nadu Tourism",
+  "description": "Smart multilingual AI-powered tourism mobile application for exploring Tamil Nadu's popular destinations, hidden gems, day-by-day itineraries, caretakers, and emergency services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
